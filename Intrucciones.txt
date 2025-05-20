@@ -1,0 +1,12 @@
+Intrucciones para abrir la pagina:
+-Crear el ambiente virtual dentro de la carpeta principal con //python -m venv env
+-Activar el ambiente virtual con el archivo activate que se situa en env/Scripts
+-Luego volver a la ruta principal para instalar los requerimentos con //pip install -r requirements.txt
+-Abrir el programa con py manage.py runserver
+
+Si va a comprar productos, debido a que el servicio webpay esta en prueba deberia agregar credenciales de prueba, los cuales son:
+  //  4051 8856 0044 6623   // CVV:123   //y fecha de expiracion cualquier fecha mayor a la actual
+
+Luego se le sera redirigido a una pantalla de transbank el cual pedira rut y clave, las cuales son 11.111.111-1 y la clave 123
+
+La contraseña del Admin Adminferremax123 contra: admin123

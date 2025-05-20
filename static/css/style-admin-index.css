@@ -1,0 +1,110 @@
+/* Fondo general */
+body {
+    background-color: #f5f5f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo navbar coherente con el sitio */
+.navbar {
+    background-color: #212529 !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+    font-weight: 500;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+/* Encabezado */
+h3 {
+    font-weight: bold;
+    color: #212529;
+    margin-bottom: 1.5rem;
+}
+
+/* Botones principales */
+.btn-success {
+    background-color: #212529;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-success:hover {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border: none;
+    color: #212529;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+/* Tablas */
+.table th {
+    background-color: #212529;
+    color: white;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+/* Formularios */
+.form-group label {
+    font-weight: 500;
+    color: #212529;
+    margin-top: 0.5rem;
+}
+
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 0.6rem;
+}
+
+.form-control:focus {
+    border-color: #ffc107;
+    box-shadow: 0 0 5px rgba(255, 193, 7, 0.4);
+    outline: none;
+}
+
+/* Modal */
+.modal-header {
+    background-color: #212529;
+    color: white;
+}
+
+.modal-title {
+    font-weight: bold;
+}
+
+.modal-content {
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+/* Toast */
+.toast-header {
+    background-color: #212529;
+    color: white;
+    font-weight: bold;
+}
+
+.toast-body {
+    font-size: 0.9rem;
+}
